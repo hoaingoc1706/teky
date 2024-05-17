@@ -1,0 +1,15 @@
+.bread-crumbs p{
+    padding:15px 10px;
+}
+a{
+    text-decoration: none;
+}
+.bread-crumbs a{
+    color:#54595F;
+}
+.bread-crumbs{
+    color:#54595F;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: .85em;
+}

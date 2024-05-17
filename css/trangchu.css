@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika",sans-serif;
+}
+
+
+.hero-section {
+    background-image: url('../images/slidetrangchu.jpg'); /* Thay 'your-image-path.jpg' bằng đường dẫn hình ảnh của bạn */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền đen với độ mờ */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 1.2em;
+    margin: 20px 0 0;
+    max-width: 800px;
+}
+
+.reason-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reason-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.icon-item {
+    text-align: center;
+}
+
+.icon-item img {
+    width: 200px;
+    height: 200px;
+}
+
+.icon-item p {
+    margin-top: 10px;
+}
+
+.about-section {
+    background-color: #f4f6e4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.certification-section {
+    padding: 70px 300px;
+    text-align: center;
+
+}
+
+.certification-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.certification-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.certifications {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.certification-item img {
+    width: 200px;
+    height: 200px;
+}
